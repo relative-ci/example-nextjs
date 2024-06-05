@@ -1,19 +1,20 @@
 import React from 'react';
-import { useLocation } from 'react-router-dom';
+import { useRouter } from 'next/router';
 
 import { PageHeader } from '../layout/page-header';
+import { Layout } from '../layout';
 import { Main } from '../layout/main';
 import { NotFound } from '../components/not-found';
 
-export function NotFoundPage() {
-  const location = useLocation();
+export default function NotFoundPage() {
+  const router = useRouter();
 
   return (
-    <>
+    <Layout>
       <PageHeader title="Not found" />
       <Main>
-        <NotFound location={location} />
+        <NotFound location={router.pathname} />
       </Main>
-    </>
+    </Layout>
   );
 }

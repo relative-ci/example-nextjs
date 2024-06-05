@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { Col, Row, Typography } from 'antd';
 import { formatRelative } from 'date-fns';
 
@@ -10,7 +10,7 @@ const { Title, Paragraph } = Typography;
 function DefaultTitle({ owner, repo }) {
   return (
     <Title level={5}>
-      <Link to={`/repos/${owner}/${repo}/`}>
+      <Link href={`/repos/${owner}/${repo}/`}>
         {repo}
       </Link>
     </Title>

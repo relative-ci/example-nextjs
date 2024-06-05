@@ -1,16 +1,16 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { Typography } from 'antd';
 
 export function NotFound({ location }) {
   return (
     <div>
       <Typography.Paragraph>
-        <code>{location.pathname}</code>
+        <code>{location}</code>
         {' '}
         does not exit.
       </Typography.Paragraph>
-      <Link to="/">Go to homepage</Link>
+      <Link href="/">Go to homepage</Link>
     </div>
   );
 }

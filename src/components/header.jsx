@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { Layout, Menu } from 'antd';
 
 import logoURL from '../assets/relative-ci.svg';
@@ -9,22 +9,22 @@ export function Header() {
   return (
     <Layout.Header className={css.root}>
       <div className={css.inner}>
-        <Link to="/" className={css.logo}>
-          <img src={logoURL} height={32} alt="RelativeCI" />
+        <Link href="/" className={css.logo}>
+          <img src={logoURL.src} height={32} alt="RelativeCI" />
         </Link>
         <Menu mode="horizontal" className={css.menu}>
           <Menu.Item key="home">
-            <Link to="/">
+            <Link href="/">
               Home
             </Link>
           </Menu.Item>
           <Menu.Item key="repos">
-            <Link to="/repos">
+            <Link href="/repos">
               Examples
             </Link>
           </Menu.Item>
           <Menu.Item key="about">
-            <Link to="/about">
+            <Link href="/about">
               About
             </Link>
           </Menu.Item>
