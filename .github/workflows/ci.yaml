@@ -24,3 +24,5 @@ jobs:
 
       # Build and send bundle info to RelativeCI
       - run: npm run build
+        env:
+          RELATIVE_CI_KEY: ${{ secrets.RELATIVE_CI_KEY }}

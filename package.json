@@ -13,6 +13,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@relative-ci/agent": "^4.2.8",
     "eslint": "^8.57.0",
     "eslint-config-next": "14.2.3",
     "next": "^13.5.6"
