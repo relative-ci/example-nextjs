@@ -1,6 +1,6 @@
 import React from 'react';
 import { Layout as UILayout } from 'antd';
-import 'antd/dist/antd.css';
+import 'antd/dist/reset.css';
 
 import { Header } from '../components/header';
 import { Footer } from '../components/footer';

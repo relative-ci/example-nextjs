@@ -1,6 +1,6 @@
 import React from 'react';
 import cx from 'classnames';
-import { PageHeader as BaseComponent } from 'antd';
+import { PageHeader as BaseComponent } from '@ant-design/pro-components';
 
 import css from './page-header.module.css';
 
