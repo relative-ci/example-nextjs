@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "@ant-design/pro-components": "2.7.10",
-    "antd": "5.18.1",
+    "antd": "5.20.0",
     "classnames": "2.5.1",
     "core-js": "3.37.1",
     "date-fns": "3.6.0",
