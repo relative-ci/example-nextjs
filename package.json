@@ -18,7 +18,7 @@
     "eslint-config-next": "14.2.7"
   },
   "dependencies": {
-    "@ant-design/pro-components": "2.7.10",
+    "@ant-design/pro-components": "2.7.16",
     "antd": "5.20.3",
     "classnames": "2.5.1",
     "core-js": "3.37.1",
