@@ -32,36 +32,5 @@
     "react-feather": "2.0.10",
     "react-markdown": "10.1.0",
     "swr": "2.3.6"
-  },
-  "overrides": {
-    "@ant-design/cssinjs": {
-      "react": "$react",
-      "react-dom": "$react-dom"
-    },
-    "@ant-design/compatible": {
-      "react": "$react",
-      "react-dom": "$react-dom"
-    },
-    "@ant-design/icons": {
-      "react": "$react",
-      "react-dom": "$react-dom"
-    },
-    "@ant-design/pro-components": {
-      "react": "$react",
-      "react-dom": "$react-dom"
-    },
-    "antd": {
-      "react": "$react",
-      "react-dom": "$react-dom"
-    },
-    "react-feather": {
-      "react": "$react"
-    },
-    "react-markdown": {
-      "react": "$react"
-    },
-    "swr": {
-      "react": "$react"
-    }
   }
 }
