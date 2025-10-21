@@ -1,4 +1,4 @@
-const { RelativeCiAgentWebpackPlugin } = require('@relative-ci/agent');
+const RelativeCIAgentPlugin = require('@relative-ci/webpack-plugin');
 
 module.exports = {
   transpilePackages: ['@ant-design/icons-svg', 'rc-pagination', 'rc-picker', 'rc-util', 'rc-tooltip'],
@@ -7,7 +7,7 @@ module.exports = {
 
     if (!dev && !isServer) {
       config.plugins.push(
-        new RelativeCiAgentWebpackPlugin(),
+        new RelativeCIAgentPlugin(),
       );
     }
 

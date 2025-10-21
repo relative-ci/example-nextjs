@@ -13,7 +13,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@relative-ci/agent": "4.2.14",
+    "@relative-ci/webpack-plugin": "5.1.0",
     "eslint": "8.57.0",
     "eslint-config-next": "15.0.3"
   },
