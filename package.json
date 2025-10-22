@@ -4,7 +4,7 @@
   "description": "RelativeCI - Exemple repository",
   "main": "src/index.js",
   "scripts": {
-    "lint": "next lint",
+    "lint": "eslint src",
     "build": "next build",
     "dev": "next dev",
     "test": "echo \"Error: no test\" && exit 0"
