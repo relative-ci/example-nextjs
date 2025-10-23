@@ -13,8 +13,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@relative-ci/webpack-plugin": "5.1.0",
     "@types/node": "24.9.1",
+    "@relative-ci/cli": "5.1.0",
     "eslint": "8.57.0",
     "eslint-config-next": "15.5.6"
   },
