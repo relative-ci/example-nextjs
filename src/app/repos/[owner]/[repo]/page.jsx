@@ -1,9 +1,10 @@
-import React from 'react';
+"use client"
+
 import { useRouter } from 'next/router';
 
-import { PageHeader } from '../../../layout/page-header';
-import { Main } from '../../../layout/main';
-import { RepoDetails } from '../../../components/repo-details';
+import { PageHeader } from '../../../../layout/page-header';
+import { Main } from '../../../../layout/main';
+import { RepoDetails } from '../../../../components/repo-details';
 
 export default function RepoDetailsPage(all) {
   const router = useRouter();
