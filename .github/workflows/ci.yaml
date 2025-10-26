@@ -27,7 +27,10 @@ jobs:
       # Lint
       - run: npm run lint -- --quiet
 
-      # Build and send bundle stats and CI information to RelativeCI
+      # Build
       - run: npm run build
+
+      # Send bundle stats and CI information to RelativeCI
+      - run: npx relative-ci
         env:
           RELATIVE_CI_KEY: ${{ secrets.RELATIVE_CI_KEY }}
