@@ -23,7 +23,7 @@
     "@ant-design/cssinjs": "1.24.0",
     "@ant-design/icons": "5.3.7",
     "@ant-design/pro-components": "2.8.10",
-    "antd": "5.27.6",
+    "antd": "5.28.0",
     "classnames": "2.5.1",
     "core-js": "3.46.0",
     "date-fns": "4.1.0",
